@@ -1,0 +1,22 @@
+
+*{
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.works{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    &-wrapper{
+        width: 80%;
+    }
+    & h4{
+        font-weight: normal;
+    }
+}

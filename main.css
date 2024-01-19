@@ -1,0 +1,21 @@
+* {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.works {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.works-wrapper {
+  width: 80%;
+}
+.works h4 {
+  font-weight: normal;
+}
