@@ -2,10 +2,12 @@
   text-decoration: none;
 }
 
-.main {
+.title {
   display: flex;
   flex-flow: row;
   justify-content: center;
+  font-weight: normal;
+  color: rgb(59, 59, 59);
 }
 
 .works {
