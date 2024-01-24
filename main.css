@@ -9,6 +9,9 @@
   font-weight: normal;
   color: rgb(59, 59, 59);
 }
+.title h3 {
+  font-weight: normal;
+}
 
 .works {
   display: flex;
