@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   text-decoration: none;
 }
@@ -20,6 +21,9 @@ body {
 .title p {
   padding: 0;
 }
+.title_sandbox p {
+  margin-top: 0px;
+}
 
 .works {
   display: flex;
@@ -36,4 +40,32 @@ body {
 
 .padding {
   padding: 40px;
+}
+
+.style_image {
+  width: 50%;
+  padding: 20px;
+}
+
+/* タブレット用スタイル */
+@media screen and (max-width: 768px) {
+  .works {
+    flex-flow: column;
+  }
+  .style_image {
+    width: 90%;
+    padding: 20px;
+  }
+}
+/* スマートフォン用スタイル */
+@media screen and (max-width: 480px) {
+  .works {
+    flex-flow: column;
+    padding-top: 60px;
+  }
+  .style_image {
+    width: 90%;
+    padding: 20px;
+    padding-left: 10px;
+  }
 }
